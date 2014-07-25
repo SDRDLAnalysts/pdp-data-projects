@@ -39,5 +39,5 @@ EXTRACT: d02M005_hitnrun_cleaned AS csv TO hnr0914.csv
 PARTITIONS:
 
 sdcda.org-felony_hit_run-p6e2014-hitnrun-cleaned
-#collisions FROM chp.ca.gov-switrs-orig-collisions WHERE juris BETWEEN 3700 AND 3800
+collisions FROM chp.ca.gov-switrs-orig-collisions-0.1.3 WHERE juris BETWEEN 3700 AND 3800
 
